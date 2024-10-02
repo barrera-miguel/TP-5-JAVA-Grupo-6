@@ -23,8 +23,8 @@ public class Ejercicio4 {
     }
 
     public static void mostrarArray(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + "\t");
+        for (int j : array) {
+            System.out.print(j + "\t");
         }
         System.out.println();
     }
