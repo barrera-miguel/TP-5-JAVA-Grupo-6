@@ -1,4 +1,3 @@
-import java.net.SocketTimeoutException;
 import java.util.Scanner;
 
 public class Ejercicio5 {
@@ -31,7 +30,7 @@ public class Ejercicio5 {
         System.out.println("---MATRIZ---");
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
-                System.out.print(matriz[i][j] + "\t");
+                System.out.print(clase[i][j] + "\t");
             }
             System.out.println();
         }
