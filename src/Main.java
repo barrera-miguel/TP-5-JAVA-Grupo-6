@@ -24,10 +24,12 @@ public class Main {
                             case 2:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 2:");
+                                //En class AlgoritmosFundamentales
                                 break;
                             case 3:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 3:");
+                                //En class AlgoritmosFundamentales
                                 break;
                             case 4:
                                 System.out.println("-------------------------------------");
@@ -37,6 +39,14 @@ public class Main {
                             case 5:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 5:");
+                                Ejercicio5 clase = new Ejercicio5();
+                                int [][] array = clase.cargaArray();
+                                clase.mostrarMatriz(array);
+                                int promedio  = clase.promedio(array);
+                                System.out.println("--PROMEDIO--"+"\n" +promedio);
+
+                                System.out.println("------------");
+                                clase.busqueda(array, promedio);
                                 break;
                             case 6:
                                 System.out.println("-------------------------------------");
