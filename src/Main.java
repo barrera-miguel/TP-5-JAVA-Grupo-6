@@ -20,6 +20,21 @@ public class Main {
                             case 1:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 1:");
+    /*Algoritmos de Ordenación:
+- Ordenamiento por Inserción:
+Funciona construyendo una secuencia ordenada de elementos, insertando cada nuevo elemento en la posición adecuada.
+-Algoritmo de la burbuja:
+Este algoritmo consiste en comparar cada elemento de la lista con el siguiente (por parejas), si no están en el orden correcto, se intercambian entre sí sus valores.
+- Ordenamiento por selección: Se recorre toda la lista buscando el menor de todos los elementos, una vez terminada la recorrida el menor elemento se coloca al inicio de la lista recorrida.
+                              En la siguiente iteración se recorre nuevamente la lista pero comenzando en el segundo elemento.
+Algoritmo Quick-Sort: El algoritmo original es recursivo, pero se utilizan versiones iterativas para mejorar su rendimiento. Tiene la propiedad de trabajar mejor para elementos de entrada desordenados completamente que para elementos semiordenados.
+    Algoritmos de Búsqueda:
+- Búsqueda Secuencial: Este algoritmo busca el elemento dado, recorriendo secuencialmente la lista desde un elemento al siguiente, comenzando en la primera posición de la lista y se detiene cuando encuentra el elemento buscado o bien se alcanza el final de la lista sin haberlo encontrado.
+                       La búsqueda secuencial es el méttodo utilizado para listas no ordenadas.
+- Búsqueda Binaria: Este algoritmo se utiliza cuando disponemos de una lista ordenada, lo que nos permite facilitar la búsqueda, ya que podemos ir disminuyendo el espacio de búsqueda a segmentos menores a la lista original y completa.
+Algoritmos de Recorrido:
+- Recorrido de Profundidad: El proceso exige un camino desde el nodo raıź a través de un hijo, al descendiente más lejano del primer hijo antes de proseguir a un segundo hijo.
+- Recorrido de Anchura: El proceso se realiza horizontalmente desde el raıź a todos sus hijos, a continuación, a los hijos de sus hijos y así ́ sucesivamente hasta que todos los nodos han sido procesados.*/
                                 break;
                             case 2:
                                 System.out.println("-------------------------------------");
